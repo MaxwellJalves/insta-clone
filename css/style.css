@@ -61,10 +61,9 @@ body{
 .caixa{
     display: flex;
     text-align: center;
-    justify-content: center;
     box-sizing: border-box;
     border: 1px solid lightgray;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
     border-radius: 1%;
     
 }
@@ -111,11 +110,13 @@ a{
 }
 .caixa:nth-child(3){
     display: flex;
+    border: none;
+    flex-direction: row;
     width:100%;
     min-width: 180px;
     height:100px;
     justify-content:center;
-    align-items: flex-end;
+    align-items: center;
     color: black;
 }
 
@@ -152,16 +153,18 @@ img{
 }
 
 .app{
-    display: inline-flex;
+    display: flex;
     width:134px;
     height: 40px;
     background:url('../img/app.png');
     background-repeat: no-repeat;
     justify-content: center;
+    align-items: center;
 }
 .play{
     width:134px;
     height: 40px;
     background: url('../img/play.png');
     background-repeat: no-repeat;
+    justify-content: center;
 }
